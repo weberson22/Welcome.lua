@@ -13,7 +13,13 @@ Este script em Lua é projetado para fornecer uma mensagem de boas-vindas aos jo
 #### Criação do arquivo
 
 - Crie 1 um arquivo com nome Welcome.lua na pasta ( Muserver/Data/Lua/Bridge )
+- Acressente no arquivo message.txt ( Muserver/Data ) o codigo abaixo
 
+```txt
+2500      "Bem vindo %s ao MuTop10"
+2501      "%s Ajude o Servidor compre seu VIP"
+2502      "%s Dias restantes de Vip"
+```
 #### Importação dos Módulos
 
 O script começa importando os módulos necessários:
