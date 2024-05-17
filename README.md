@@ -4,6 +4,7 @@ Este script em Lua é projetado para fornecer uma mensagem de boas-vindas aos jo
 
 ## Pré-requisitos
 
+- <a href="https://emulator.matrixsecurity.online/" target="_blank">Emulador Matrix</a>
 - Interpretador Lua
 - Módulos Lua necessários: `System\\ScriptCore` e `System\\ScriptDefines`
 
