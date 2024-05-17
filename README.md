@@ -10,6 +10,10 @@ Este script em Lua é projetado para fornecer uma mensagem de boas-vindas aos jo
 
 ## Visão Geral do Script
 
+#### Criação do arquivo
+
+- Crie 1 um arquivo com nome Welcome.lua na pasta ( Muserver/Data/Lua/Bridge )
+
 #### Importação dos Módulos
 
 O script começa importando os módulos necessários:
