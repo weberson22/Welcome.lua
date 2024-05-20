@@ -1,3 +1,7 @@
+<p align="center">
+<a href="https://github.com/weberson22"><img title="Autor" src="https://img.shields.io/badge/Autor-Weberson22-blue.svg?style=for-the-badge&logo=github"></a>
+</p>
+
 # Script Welcome.lua
 
 Este script em Lua é projetado para fornecer uma mensagem de boas-vindas aos jogadores ao entrarem no jogo. Ele obtém e utiliza detalhes específicos do jogador, como nome de usuário, nível da conta e data de expiração da conta, para personalizar a experiência de boas-vindas.
