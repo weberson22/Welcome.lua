@@ -1,4 +1,7 @@
 <p align="center">
+<img src="https://i.imgur.com/uWvZ3no.png" width="128" height="128"/>
+</p>
+<p align="center">
 <a href="https://github.com/weberson22"><img title="Autor" src="https://img.shields.io/badge/Autor-Weberson22-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 
