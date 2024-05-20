@@ -80,8 +80,20 @@ Esta função converte uma string de data em um timestamp:
 ```lua
 function parseDate(dateString)
     local year, month, day, hour, min, sec = dateString:match("(%d+)-(%d+)-(%d+) (%d+):(%d+):(%d+)")
+    year = tonumber(year)
+    month = tonumber(month)
+    day = tonumber(day)
+    hour = tonumber(hour)
+    min = tonumber(min)
+    sec = tonumber(sec)
+    
+    -- Verificar se a data é antes do limite suportado (por exemplo, 1970)
+    if year < 1970 then
+        -- Retornar uma data padrão em caso de data antiga
+        return os.time({year = 2020, month = 1, day = 1, hour = 0, min = 0, sec = 0})
+    end
+
     return os.time({year = year, month = month, day = day, hour = hour, min = min, sec = sec})
-end
 ```
 
 #### Dias Até a Expiração
